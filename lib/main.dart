@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FoobGlow',
+      title: 'FoobFlow',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text("This demo keeps crashing!!!"),
+        title: Text("Foobflow"),
       ),
       body: Center(
 
